@@ -1,0 +1,180 @@
+body{
+  background-color: hsl(216, 12%, 8%);
+  font-family: 'Overpass', sans-serif;
+}
+
+.container{
+  background-color:  #101e27;
+  width: 400px;
+  height: 380px;
+  padding: 30px;
+  margin-top: 100px;
+  border-radius: 20px;
+}
+
+.star-image{
+  border: 1px solid hsl(213, 19%, 18%);
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 50%;
+  width: 40px;
+  padding: 7px 3px;
+}
+.star-image img{
+  margin-left: 9px;
+  width: 15px;
+}
+
+h1, h2{
+  color: hsl(0, 0%, 100%);
+  font-size: 1.8em;
+  margin-top: 30px;
+}
+
+h2{
+  text-align: center;
+}
+
+p{
+  color: hsl(217, 12%, 63%);
+  font-size: 0.9375em;
+}
+
+.rating-buttons{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+}
+
+.rating-buttons button{
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(216, 12%, 54%);
+  border-radius: 50%;
+  border: none;
+  font-size: 0.7em;
+  width: 40px;
+  height: 40px;
+}
+.rating-buttons button:hover{
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+.rating-buttons button.clicked{
+  background-color: hsl(216, 12%, 54%);
+  color: white;
+}
+
+.submit-button button{
+  background-color: hsl(25, 97%, 53%);
+  color:  hsl(0, 0%, 100%);
+  width: 350px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  letter-spacing: 0.2em;
+}
+.submit-button button:hover{
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+
+.thank-you-state{
+  display: none;
+  
+}
+
+.thank-you-image img{
+  margin: 10px 80px;
+}
+
+.rating-button-text button{
+  margin: 20px 60px 10px;
+  border: none;
+  border-radius: 20px;
+  color: hsl(25, 50%, 53%);
+  background-color: hsl(213, 19%, 18%);
+  font-size: 1em;
+  width: 200px;
+  height: 30px;
+}
+
+h2{
+  margin: 20px 90px 10px;
+}
+
+.thankyou-text{
+  text-align: center;
+}
+
+  .attribution {
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 150px;
+  }
+  .attribution a{ 
+    color: hsl(228, 45%, 44%); 
+  }
+  
+  @media (max-width:800px){
+    .container{
+      width: 230px;
+      height: 250px;
+      padding: 15px;
+      margin-top: 100px;
+      border-radius: 10px;
+    }
+    .star-image{
+      width: 25px;
+      padding:0px 5px;
+    }
+    .star-image img{
+      margin-left: 2px;
+      width: 10px;
+    }
+    h1, h2{
+      font-size: 1.1em;
+      margin-top: 15px;
+    }
+    p{
+      font-size: 0.63em;
+      margin-top: 7px;
+    }
+    .rating-buttons{
+      margin: 20px 0px;
+    }
+    .rating-buttons button{
+      font-size: 0.5em;
+      width: 30px;
+      height: 30px;
+    }
+    .rating-buttons button:hover{
+      background-color: hsl(25, 97%, 53%);
+      color: white;
+    }
+    .submit-button{
+      font-size: 0.6em;
+    }
+    .submit-button button{
+      width: 200px;
+      height: 30px;
+    }
+    .thank-you-image img{
+      width: 100px;
+      height: 66.67px;
+      margin: 10px 50px;
+    }
+    .rating-button-text button{
+      margin: 10px 40px 10px;
+      font-size: 0.6em;
+      width: 120px;
+      height: 25px;
+    }
+    h2{
+      margin: 10px 0px 10px;
+      font-weight: 700;
+      font-size: 1em;
+    }
+    .thankyou-text{
+      text-align: center;
+
+    }
+  }
